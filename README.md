@@ -1,1 +1,1 @@
-# javaScript_Assignment-8
+COMP 690 Assignment-8
