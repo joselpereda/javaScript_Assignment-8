@@ -12,13 +12,13 @@ Storage.prototype.getObj = function(key) {
 let arrEmployees = [
     [55532444, "Jose Pereda", 5541, "jose.pereda@ms.com", "Engineering Lead"],
     [33454566, "Osman Vandicci", 6544, "osman.vandicci@ms.com", "Support Lead"],
-    [84747743, "Tito Stainbach", 9876, "tito.stanback@ms.com", "Research Dir"],
-    [23432410, "Angel Santiago", 1234, "angel.santiago@mscom", "Sales Dir"],
+    [84747743, "Tito Stainbach", 9876, "tito.stanback@ms.com", "Research Director"],
+    [23432410, "Angel Santiago", 1234, "angel.santiago@mscom", "Sales Director"],
     [78655433, "Karina Rosales", 6543, "karina.rosales@ms.com", "M&O Lead"]
 ];
 
 // CHECK TO SEE IF STORAGE OBJECT EXISTS WHEN THE PAGE LOADS
-// IF DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATING ARRAY
+// IF IT DOES, RETURN STORAGE OBJECT INTO ARRAY INSTEAD OF POPULATING ARRAY
 if (localStorage.getObj('employees') !== null) {
     arrEmployees = localStorage.getObj('employees');
 }
@@ -27,9 +27,9 @@ if (localStorage.getItem('employees') !== null) {
 }
 
 // GET DOM ELEMENTS
-let form        = document.querySelector('#addForm');
-let empTable    = document.querySelector('#employees');
-let empCount    = document.querySelector('#empCount');
+let form            = document.querySelector('#addForm');
+let empTable        = document.querySelector('#employees');
+let empCount        = document.querySelector('#empCount');
 
 // BUILD THE EMPLOYEES TABLE WHEN THE PAGE LOADS
 buildGrid(arrEmployees);
