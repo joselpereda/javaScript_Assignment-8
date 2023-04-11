@@ -114,29 +114,53 @@
 //         console.log(Movies[t]);
 //     }
 // }
+
 //STEP 9
 // Copy the code from step 8. Now, use the concat() method to merge the two arrays together into a single array called movies. Use the console window to display the list in reverse sorted order
-let Movies = [];
-Movies[0] = 'Casino'; 
-Movies[1] = 'Braveheart';
-Movies[2] = 'Good Fellas';
-Movies[3] = 'The Matrix';
-Movies[4] = 'Heat';
-Movies[5] = 'Scicario';
-Movies[6] = 'Never Ending Story';
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
 
-let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
 
 // CONCAT BOTH ARRAYS
-let completeMoviesList = Movies.concat(leastFavMovies);
+// let completeMoviesList = Movies.concat(leastFavMovies);
 // SORT AND REVERSE
-completeMoviesList.sort();
-completeMoviesList.reverse();
+// completeMoviesList.sort();
+// completeMoviesList.reverse();
 
-// DISPLAY TO CONSOLE
-console.log(completeMoviesList);
+// // DISPLAY TO CONSOLE
+// console.log(completeMoviesList);
 
 //STEP 10
+// Copy the code from step 9. Use an array function to return just the last item in the array and display it within the console window.
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+
+// // CONCAT BOTH ARRAYS
+// let completeMoviesList = Movies.concat(leastFavMovies);
+// // SORT AND REVERSE
+// completeMoviesList.sort();
+// completeMoviesList.reverse();
+
+// // FIND LENGTH OF ARRAY
+// let indexOfLastMovie = completeMoviesList.length; 
+
+// // DISPLAY LAST ARRAY ITEM TO CONSOLE
+// console.log(completeMoviesList[indexOfLastMovie-1]);
 
 //STEP 11
 
