@@ -4,7 +4,15 @@ let arrayMyFavoriteMovies = ['Casino', 'Braveheart', 'Good Fellas', 'The Matrix'
 console.log(arrayMyFavoriteMovies[1]);
 
 //STEP 2
+/* Declare an array called movies using the function constructor method. Add the length of 5 into the constructor. Then, assign one of your favorite movies to each index in the array until you have 5 total movies in your array. Then, use the console to display the first movie in your array. */
+let Movies = new Array(5);
+Movies[0] = 'Casino'; 
+Movies[1] = 'Braveheart';
+Movies[2] = 'Good Fellas';
+Movies[3] = 'The Matrix';
+Movies[4] = 'Heat';
 
+console.log(Movies[0]);
 
 
 //STEP 3
