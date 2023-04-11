@@ -233,6 +233,21 @@
 // });
 
 //STEP 14
+// Define employee names display function
+function displayEmployees (arrEmp) {
+    console.log("Employees:\n\n");
+
+    for (let t in arrEmp) {
+        if (arrEmp.hasOwnProperty(t)) {
+            console.log(arrEmp[t]);
+        }
+    }
+}
+// Define employee array
+let arrEmployees = ['ZAK', 'JESSICA', 'MARK', 'FRED', 'SALLY'];
+
+// Call funciton display employee names. Pass it employee array
+displayEmployees(arrEmployees);
 
 //STEP 15
 
