@@ -86,6 +86,36 @@
 
 //STEP 8
 // Copy the code from step 5. Under the existing array, create a new array called leastFavMovies. Populate the array with the 3 movies that you regret watching. Display both arrays within the console window so that it’s formatted to look like this 
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+
+// console.log('Movies I like:');
+// console.log('\n');
+
+// for (let i in Movies) {
+//     if (Movies.hasOwnProperty(i)) {
+//         console.log(Movies[i]);
+//     }
+// }
+// console.log('\n')
+// console.log('Movies I regret watching:')
+// console.log('\n');
+
+// for (let t in leastFavMovies) {
+//     if (leastFavMovies.hasOwnProperty(t)) {
+//         console.log(Movies[t]);
+//     }
+// }
+//STEP 9
+// Copy the code from step 8. Now, use the concat() method to merge the two arrays together into a single array called movies. Use the console window to display the list in reverse sorted order
 let Movies = [];
 Movies[0] = 'Casino'; 
 Movies[1] = 'Braveheart';
@@ -97,24 +127,14 @@ Movies[6] = 'Never Ending Story';
 
 let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
 
-console.log('Movies I like:');
-console.log('\n');
+// CONCAT BOTH ARRAYS
+let completeMoviesList = Movies.concat(leastFavMovies);
+// SORT AND REVERSE
+completeMoviesList.sort();
+completeMoviesList.reverse();
 
-for (let i in Movies) {
-    if (Movies.hasOwnProperty(i)) {
-        console.log(Movies[i]);
-    }
-}
-console.log('\n')
-console.log('Movies I regret watching:')
-console.log('\n');
-
-for (let t in leastFavMovies) {
-    if (leastFavMovies.hasOwnProperty(t)) {
-        console.log(Movies[t]);
-    }
-}
-//STEP 9
+// DISPLAY TO CONSOLE
+console.log(completeMoviesList);
 
 //STEP 10
 
