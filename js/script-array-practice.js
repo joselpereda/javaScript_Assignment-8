@@ -233,24 +233,55 @@
 // });
 
 //STEP 14
-// Define employee names display function
-function displayEmployees (arrEmp) {
-    console.log("Employees:\n\n");
+// // Define employee names display function
+// function displayEmployees (arrEmp) {
+//     console.log("Employees:\n\n");
 
-    for (let t in arrEmp) {
-        if (arrEmp.hasOwnProperty(t)) {
-            console.log(arrEmp[t]);
-        }
-    }
-}
-// Define employee array
-let arrEmployees = ['ZAK', 'JESSICA', 'MARK', 'FRED', 'SALLY'];
+//     for (let t in arrEmp) {
+//         if (arrEmp.hasOwnProperty(t)) {
+//             console.log(arrEmp[t]);
+//         }
+//     }
+// }
+// // Define employee array
+// let arrEmployees = ['ZAK', 'JESSICA', 'MARK', 'FRED', 'SALLY'];
 
-// Call funciton display employee names. Pass it employee array
-displayEmployees(arrEmployees);
+// // Call funciton display employee names. Pass it employee array
+// displayEmployees(arrEmployees);
 
 //STEP 15
+// Write a JavaScript function to filter false, null, 0 and blank values from an array
+// Test Data: console.log(filterValues([58, '', 'abcd', true, null, false, 0]));
+// Expected Result: [58, "abcd", true]
+
+// function isEligible(value) {
+//     if(value !== false || value !== null || value !== 0 || value !== "") {
+//       return value;
+//     }
+// }
+
+// function filter_array_values(arr) {
+//     arr = arr.filter(isEligible);
+//     return arr;
+// }
+    
+// console.log(filter_array_values([58, '', 'abcd', true, null, false, 0]));
 
 //STEP 16
+// // Write a JavaScript function to get a random item from an array
+// function getRandomItem(arr) {
+//     // get random index value
+//     const randomIndex = Math.floor(Math.random() * arr.length);
+
+//     // get random item
+//     const item = arr[randomIndex];
+
+//     return item;
+// }
+
+// const array = [1, 'hello', 5, 'what?'];
+
+// const result = getRandomItem(array);
+// console.log(result);
 
 //STEP 17
