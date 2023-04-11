@@ -285,3 +285,7 @@
 // console.log(result);
 
 //STEP 17
+// Write a JavaScript function to get the largest number from a numeric array
+// let array = [-1, 0, 3, 100, 99, 2, 99];
+
+// console.log(Math.max.apply({}, array));
