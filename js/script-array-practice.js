@@ -163,6 +163,26 @@
 // console.log(completeMoviesList[indexOfLastMovie-1]);
 
 //STEP 11
+// Copy the code from step 10. Remove the previous method and this time use a method to return just the first item in the array and display it within the console window.
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+
+// // CONCAT BOTH ARRAYS
+// let completeMoviesList = Movies.concat(leastFavMovies);
+// // SORT AND REVERSE
+// completeMoviesList.sort();
+// completeMoviesList.reverse();
+
+// // DISPLAY FIRST ITEM TO CONSOLE
+// console.log(completeMoviesList[0]);
 
 //STEP 12
 
