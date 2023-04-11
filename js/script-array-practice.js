@@ -185,6 +185,38 @@
 // console.log(completeMoviesList[0]);
 
 //STEP 12
+// Programmatically retrieve the movies in your array that you do not like and return their indices. Then, using those indices, programmatically add movies that you do like. 
+let Movies = [];
+Movies[0] = 'Casino'; 
+Movies[1] = 'Braveheart';
+Movies[2] = 'Good Fellas';
+Movies[3] = 'The Matrix';
+Movies[4] = 'Heat';
+Movies[5] = 'Scicario';
+Movies[6] = 'Never Ending Story';
+
+let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+let addFavMovies = ['Tropic Thunder', 'Bad Boys', 'Avatar'];
+
+// CONCAT BOTH ARRAYS
+let completeMoviesList = Movies.concat(leastFavMovies);
+// SORT AND REVERSE
+completeMoviesList.sort();
+completeMoviesList.reverse();
+
+t = 0;
+
+for (let i in completeMoviesList) {
+    if (completeMoviesList.hasOwnProperty(i)) {
+        let targetIndice = completeMoviesList.indexOf(leastFavMovies[i]);
+        completeMoviesList.splice(targetIndice,1,addFavMovies[t]);
+    }
+    // INCREASE NEW FAV MOVIE LIST INDICE BY 1
+    t++;
+}
+
+console.log(completeMoviesList);
+
 
 //STEP 13
 
