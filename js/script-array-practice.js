@@ -54,7 +54,18 @@
 
 //STEP 6
 /* Copy the code from step 5. Now, use a for/of loop to iterate through the array and display each movie within the console window. */
+let Movies = [];
+Movies[0] = 'Casino'; 
+Movies[1] = 'Braveheart';
+Movies[2] = 'Good Fellas';
+Movies[3] = 'The Matrix';
+Movies[4] = 'Heat';
+Movies[5] = 'Scicario';
+Movies[6] = 'Never Ending Story';
 
+for (let i of Movies) {
+    console.log(i);
+}
 
 //STEP 7
 
